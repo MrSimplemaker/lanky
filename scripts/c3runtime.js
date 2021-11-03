@@ -4790,6 +4790,7 @@ self.C3_ExpressionFuncs = [
 			return () => (n0.ExpObject() + (n1.ExpObject() / 2));
 		},
 		() => "Limbo",
+		() => "Game",
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
